@@ -1,0 +1,24 @@
+{
+    "name": "lsshu/file",
+    "description": "General Document Management",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lsshu",
+            "email": "admin@lsshu.cn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lsshu\\File\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lsshu\\File\\ServiceProvider"
+            ]
+        }
+    }
+}
